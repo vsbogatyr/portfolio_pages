@@ -11,65 +11,134 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="works">
-        <section class="section main__section main__section--works">
-          <ul class="social__list">
-            <li class="social__item"><a class="social__link" href="">vk</a></li>
-            <li class="social__item"><a class="social__link" href="vk">git-hub</a></li>
-            <li class="social__item"><a class="social__link" href="vk">in</a></li>
-          </ul>
-          <nav class="nav"></nav>
-          <div class="dev-desc dev-desc--works">
-            <div class="dev-desc__avatar" style="background-image:url(img/content/avatar.jpg);"></div>
-            <div class="dev-desc__name dev-desc__name--welcome">Богатыренко Владимир</div>
-            <div class="dev-desc__desc dev-desc__desc--welcome">Личный сайт веб разработчика</div>
+      <section class="section hero hero--works">
+        <ul class="social__list social__list--works">
+          <li class="social__item"><a class="social__link" href="">
+              <svg class="icon-social" width="26" height="22" fill="#fff">
+                <use xlink:href="img/symbol/sprite.svg#icons--vk"></use>
+              </svg></a></li>
+          <li class="social__item"><a class="social__link" href="#">
+              <svg class="icon-social" width="26" height="22" fill="#fff">
+                <use xlink:href="img/symbol/sprite.svg#icons--github"></use>
+              </svg></a></li>
+          <li class="social__item"><a class="social__link" href="#">
+              <svg class="icon-social" width="26" height="22" fill="#fff">
+                <use xlink:href="img/symbol/sprite.svg#icons--in"></use>
+              </svg></a></li>
+        </ul>
+        <div class="hero__menu hamburger">
+          <svg class="hamburger-icon" width="26" height="22" fill="#fff">
+            <use xlink:href="img/symbol/sprite.svg#icons--hamburger"></use>
+          </svg>
+        </div>
+        <svg class="hero__bg-text" width="100%" height="100%" fill="#fff">
+          <use xlink:href="img/symbol/sprite.svg#icons--portfolio_header"></use>
+        </svg>
+        <div class="dev-desc dev-desc--works">
+          <div class="dev-desc__avatar" style="background-image:url(img/content/avatar.jpg);"></div>
+          <div class="dev-desc__name dev-desc__name--works">Богатыренко Владимир</div>
+          <div class="dev-desc__desc dev-desc__desc--works">Личный сайт веб разработчика</div>
+        </div>
+        <div class="down">
+          <svg class="down-icon" width="26" height="16" fill="#fff">
+            <use xlink:href="img/symbol/sprite.svg#icons--arrow_down">         </use>
+          </svg>
+        </div>
+        <div class="box">
+          <svg class="traingle" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 85" preserveaspectratio="none">
+            <polygon class="left" points="0,0   0,86   500.8,86   500.8,75.5"></polygon>
+            <polygon class="right" points="1000,0   1000,86   500,86   500,75.5"></polygon>
+          </svg>
+        </div>
+      </section>
+      <section class="section my-work">
+        <div class="my-work__title">
+          <svg class="my-work__bg-text" width="100%" height="100%" fill="#6d7070">
+            <use xlink:href="img/symbol/sprite.svg#icons--works_header"></use>
+          </svg>
+          <h2 class="title works--title">Мои работы</h2>
+        </div>
+        <div class="my-work__slider">
+          <div class="my-work__slider-info">
+            <div class="my-work__slider-info-block">
+              <h3 class="subtitle subtitle--my-work">Сайт школы онлайн образования</h3>
+              <div class="my-work__slider-skills">HTML , CSS, JAVASCRIPT</div>
+              <div class="my-work__slider-info-btn"><a class="my-work__slider-info-btn-link">
+                  <div class="my-work__slider-info-btn-link-icon">
+                    <svg class="icons-link" width="20" height="19" fill="#fff">
+                      <use xlink:href="img/symbol/sprite.svg#icons--link"></use>
+                    </svg>
+                  </div>
+                  <div class="my-work__slider-info-btn-link-text">Посмотреть сайт</div></a></div>
+            </div>
           </div>
-          <div class="down"></div>
-        </section>
-        <section class="section my-work">
-          <div class="my-work__title">
-            <h2 class="title works--title">Мои работы</h2>
+          <div class="my-work__slider-display"><img class="my-work__slider-display-img" src="img/content/works/work-1.png"></div>
+          <div class="my-work__slider-btns">
+            <div class="my-work__slider-btns-down"><img class="my-work__slider-btns-down-img" src="img/content/works/work-2.png">
+              <svg class="my-work__slider-btns-down-icon" width="45" height="26" fill="#fff">
+                <use xlink:href="img/symbol/sprite.svg#icons--portf_arrow_down">   </use>
+              </svg>
+            </div>
+            <div class="my-work__slider-btns-up"><img class="my-work__slider-btns-up-img" src="img/content/works/work-3.png">
+              <svg class="my-work__slider-btns-up-icon" width="45" height="26" fill="#fff">
+                <use xlink:href="img/symbol/sprite.svg#icons--portf_arrow_up">             </use>
+              </svg>
+            </div>
           </div>
-          <div class="my-work__left">
-            <h3 class="subtitle subtitle--my-work">Сайт школы онлайн образования</h3>
-            <div class="my-work__left-skills">HTML , CSS, JAVASCRIPT</div><a class="my-work__left-link">
-              <div class="my-work__left-link-icon"></div>
-              <div class="my-work__left-link-text"></div></a>
-          </div>
-          <div class="my-work__right"></div>
-        </section>
-        <section class="section reviews">
+        </div>
+      </section>
+      <section class="section reviews">
+        <div class="reviews__title">
+          <svg class="reviews__bg-text" width="100%" height="100%" fill="#6d7070">
+            <use xlink:href="img/symbol/sprite.svg#icons--works_header"></use>
+          </svg>
           <h2 class="title title--reviews">Что обо мне говорят</h2>
-          <ul class="review__list">
-            <li class="review__item">
-              <div class="review__avatar" style="background-image:url(img/content/avatar.jpg);"></div>
-              <div class="review__desc">
+        </div>
+        <div class="reviews__block">
+          <ul class="reviews__list">
+            <li class="reviews__item"><img class="reviews__item-img" src="img/bg/quotation.png">
+              <div class="reviews__desc">
                 Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 2 месяца только самых тяжелых
                 испытаний и бессонных ночей!
               </div>
-              <div class="review__autor">Ковальчук Дмитрий</div>
-              <div class="review__autor-info">— основатель Loftschool</div>
+              <div class="reviews__autor"> 
+                <div class="reviews__avatar" style="background-image:url(img/content/kovalchuk.png);"></div>
+                <div class="reviews__autor-info">                              
+                  <div class="reviews__autor-name">Ковальчук Дмитрий</div>
+                  <div class="reviews__autor-position">основатель Loftschool</div>
+                </div>
+              </div>
             </li>
-            <li class="review__item">
-              <div class="review__avatar" style="background-image:url(img/content/avatar.jpg);"></div>
-              <div class="review__desc">Этот код выдержит любые испытания. Только пожалуйста, не загружается сайт на слишком старых браузерах!</div>
-              <div class="review__autor">Сабанцев Владимир</div>
-              <div class="review__autor-info">— преподаватель</div>
+            <li class="reviews__item"><img class="reviews__item-img" src="img/bg/quotation.png">
+              <div class="reviews__desc">Этот код выдержит любые испытания. Только пожалуйста, не загружается сайт на слишком старых браузерах!</div>
+              <div class="reviews__autor"> 
+                <div class="reviews__avatar" style="background-image:url(img/content/sabantcev.png);"></div>
+                <div class="reviews__autor-info">                            
+                  <div class="reviews__autor-name">Сабанцев Владимир</div>
+                  <div class="reviews__autor-position">преподаватель</div>
+                </div>
+              </div>
             </li>
           </ul>
-          <form class="msg" action="">
-            <h3 class="subtitle subtitle--mess">Связаться со мной</h3>
-            <input class="msg__name" type="text" placeholder="Имя">
-            <input class="msg__email" type="text" placeholder="Email">
-            <textarea class="msg__text" name="message__text" id="" placeholder="Ваше сообщение"></textarea>
-            <ul class="msg__btn-list">
-              <il class="msg__btn-item">Отправить</il>
-              <il class="msg__btn-item">Очистить</il>
-            </ul>
-          </form>
-          <div class="up"></div>
-        </section>
-      </div>
+        </div>
+        <form class="msg" action="">
+          <div class="msg__content">
+            <h3 class="subtitle subtitle--msg">Связаться со мной           </h3>
+            <input class="msg__input msg__input-name" type="text" placeholder="Имя">
+            <input class="msg__input msg__input-email" type="text" placeholder="Email">
+            <textarea class="msg__input msg__input-text" name="message__text" id="" placeholder="Ваше сообщение"></textarea>
+          </div>
+          <ul class="msg__btns-list">
+            <li class="msg__btns-item">
+              <button class="msg__btns-item-btn">Отправить</button>
+            </li>
+            <li class="msg__btns-item"> 
+              <button class="msg__btns-item-btn">Очистить</button>
+            </li>
+          </ul>
+        </form>
+        <div class="up"></div>
+      </section>
     </div>
   </body>
 </html>
