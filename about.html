@@ -11,24 +11,102 @@
   </head>
   <body>
     <div class="wrapper">
-      <section class="section main__section main__section--about">
-        <ul class="social__list">
-          <li class="social__item"><a class="social__link" href="">vk</a></li>
-          <li class="social__item"><a class="social__link" href="vk">git-hub</a></li>
-          <li class="social__item"><a class="social__link" href="vk">in</a></li>
+      <section class="section hero hero--about">
+        <ul class="social__list social__list--header">
+          <li class="social__item"><a class="social__link" href="">
+              <svg class="icon-social" width="26" height="22" fill="#fff">
+                <use xlink:href="img/symbol/sprite.svg#icons--vk"></use>
+              </svg></a></li>
+          <li class="social__item"><a class="social__link" href="#">
+              <svg class="icon-social" width="26" height="22" fill="#fff">
+                <use xlink:href="img/symbol/sprite.svg#icons--github"></use>
+              </svg></a></li>
+          <li class="social__item"><a class="social__link" href="#">
+              <svg class="icon-social" width="26" height="22" fill="#fff">
+                <use xlink:href="img/symbol/sprite.svg#icons--in"></use>
+              </svg></a></li>
         </ul>
-        <nav class="nav"></nav>
-        <div class="dev-desc dev-desc--works">
-          <div class="dev-desc__avatar" style="background-image:url(img/content/avatar.jpg);"></div>
-          <div class="dev-desc__name dev-desc__name--welcome">Богатыренко Владимир</div>
-          <div class="dev-desc__desc dev-desc__desc--welcome">Личный сайт веб разработчика</div>
+        <div class="hero__menu hamburger">
+          <svg class="hamburger-icon" width="26" height="22" fill="#fff">
+            <use xlink:href="img/symbol/sprite.svg#icons--hamburger"></use>
+          </svg>
         </div>
-        <div class="down"></div>
+        <svg class="hero__bg-text" width="100%" height="100%" fill="#fff">
+          <use xlink:href="img/symbol/sprite.svg#icons--portfolio_header"></use>
+        </svg>
+        <div class="dev-desc dev-desc--header">
+          <div class="dev-desc__avatar" style="background-image:url(img/content/avatar.jpg);"></div>
+          <div class="dev-desc__name dev-desc__name--works">Богатыренко Владимир</div>
+          <div class="dev-desc__desc dev-desc__desc--works">Личный сайт веб разработчика</div>
+        </div>
+        <div class="down">
+          <svg class="down-icon" width="26" height="16" fill="#fff">
+            <use xlink:href="img/symbol/sprite.svg#icons--arrow_down">         </use>
+          </svg>
+        </div>
+        <div class="box">
+          <svg class="traingle" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 85" preserveaspectratio="none">
+            <polygon class="left-traingle left-traingle--about" points="0,0   0,86   500.8,86   500.8,75.5"></polygon>
+            <polygon class="right-traingle right-traingle--about" points="1000,0   1000,86   500,86   500,75.5"></polygon>
+          </svg>
+        </div>
       </section>
       <section class="section about">
         <div class="about__left">
-          <h2 class="title about--title">ОБО МНЕ</h2>
-          <div class="about--avatar" style="background-image:url(img/content/avatar.jpg);"></div>
+          <h2 class="title title--about">ОБО МНЕ</h2>
+          <div class="about__avatar" style="background-image:url(img/content/avatar.jpg);"></div>
+          <h3 class="subtitle subtitle--about">Кто я</h3>
+          <div class="about__desc">
+            Я веб разработчик из Тарко-Сале. Мне 30 лет. Я занимаюсь разработкой современных сайтов и приложений. Мне нравится делать интересные и современные проекты.Этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool. Чуть позже я освежу в нём свой контент. А пока посмотрите, как тут всё классно и красиво!</div>
+        </div>
+        <div class="about__right">
+          <h3 class="subtitle subtitle--about">Чем я могу быть вам полезен</h3>
+          <div class="about__info">Больше всего меня привлекет Frontend разработка, но я также знаком и могу решать не сложные задачи на Backend. Но давайте по порядку.</div>
+        </div>
+      </section>
+      <section class="section map">
+        <div class="contacts">
+          <h3 class="subtitle subtitle--conctacts">Контакты</h3>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <div class="contacts__icon">
+                <svg class="contacts__icon-img" width="25px" height="25px" fill="#00bea4">
+                  <use xlink:href="img/symbol/sprite.svg#icons--skype">               </use>
+                </svg>
+              </div>
+              <div class="contacts__contact">skype_kdn</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="footer__content footer__content--top">           
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__item-link" href="works.html">Мои работы</a></li>
+              <li class="nav__item"><a class="nav__item-link" href="about.html">Обо мне</a></li>
+              <li class="nav__item"><a class="nav__item-link" href="blog.html">Блог</a></li>
+              <li class="nav__item"><a class="nav__item-link" href="index.html">Авторизация</a></li>
+            </ul>
+          </nav>
+          <ul class="social__list--footer">
+            <li class="social__item--footer"><a class="social__link" href="">
+                <svg class="icon-social-footer" width="36" height="36" fill="#fff">
+                  <use xlink:href="img/symbol/sprite.svg#icons--vk_round"></use>
+                </svg></a></li>
+            <li class="social__item--footer"><a class="social__link" href="#">
+                <svg class="icon-social-footer" width="36" height="36" fill="#fff">
+                  <use xlink:href="img/symbol/sprite.svg#icons--github_round"></use>
+                </svg></a></li>
+            <li class="social__item--footer"><a class="social__link" href="#">
+                <svg class="icon-social-footer" width="36" height="36" fill="#fff">
+                  <use xlink:href="img/symbol/sprite.svg#icons--in_round"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+        <div class="footer__content footer__content--bottom">
+          <div class="footer__content-desc footer__content-desc-left">Я веб-разработчик из Тарко-Сале, и этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool.</div>
+          <div class="footer__content-desc footer__content-desc-right">© Владимир Богатыренко | создано с любовью в LoftSchool | 2018</div>
         </div>
       </section>
     </div>
