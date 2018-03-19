@@ -12,7 +12,7 @@
   <body>
     <div class="wrapper">
       <section class="section hero hero--works">
-        <ul class="social__list social__list--works">
+        <ul class="social__list social__list--header">
           <li class="social__item"><a class="social__link" href="">
               <svg class="icon-social" width="26" height="22" fill="#fff">
                 <use xlink:href="img/symbol/sprite.svg#icons--vk"></use>
@@ -34,7 +34,7 @@
         <svg class="hero__bg-text" width="100%" height="100%" fill="#fff">
           <use xlink:href="img/symbol/sprite.svg#icons--portfolio_header"></use>
         </svg>
-        <div class="dev-desc dev-desc--works">
+        <div class="dev-desc dev-desc--header">
           <div class="dev-desc__avatar" style="background-image:url(img/content/avatar.jpg);"></div>
           <div class="dev-desc__name dev-desc__name--works">Богатыренко Владимир</div>
           <div class="dev-desc__desc dev-desc__desc--works">Личный сайт веб разработчика</div>
@@ -128,16 +128,46 @@
             <input class="msg__input msg__input-email" type="text" placeholder="Email">
             <textarea class="msg__input msg__input-text" name="message__text" id="" placeholder="Ваше сообщение"></textarea>
           </div>
-          <ul class="msg__btns-list">
-            <li class="msg__btns-item">
-              <button class="msg__btns-item-btn">Отправить</button>
-            </li>
-            <li class="msg__btns-item"> 
-              <button class="msg__btns-item-btn">Очистить</button>
-            </li>
-          </ul>
+          <div class="msg__btns">             
+            <button class="msg__btn msg__btn--send">Отправить              </button>
+            <button class="msg__btn msg__btn--reset">Очистить</button>
+          </div>
         </form>
-        <div class="up"></div>
+        <div class="up">
+          <svg class="up__icon" width="26" height="16" fill="#fff">
+            <use xlink:href="img/symbol/sprite.svg#icons--arrow_down"></use>
+          </svg>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="footer__content footer__content--top">           
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__item-link" href="works.html">Мои работы</a></li>
+              <li class="nav__item"><a class="nav__item-link" href="about.html">Обо мне</a></li>
+              <li class="nav__item"><a class="nav__item-link" href="blog.html">Блог</a></li>
+              <li class="nav__item"><a class="nav__item-link" href="index.html">Авторизация</a></li>
+            </ul>
+          </nav>
+          <ul class="social__list--footer">
+            <li class="social__item--footer"><a class="social__link" href="">
+                <svg class="icon-social-footer" width="36" height="36" fill="#fff">
+                  <use xlink:href="img/symbol/sprite.svg#icons--vk_round"></use>
+                </svg></a></li>
+            <li class="social__item--footer"><a class="social__link" href="#">
+                <svg class="icon-social-footer" width="36" height="36" fill="#fff">
+                  <use xlink:href="img/symbol/sprite.svg#icons--github_round"></use>
+                </svg></a></li>
+            <li class="social__item--footer"><a class="social__link" href="#">
+                <svg class="icon-social-footer" width="36" height="36" fill="#fff">
+                  <use xlink:href="img/symbol/sprite.svg#icons--in_round"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+        <div class="footer__content footer__content--bottom">
+          <div class="footer__content-desc footer__content-desc-left">Я веб-разработчик из Тарко-Сале, и этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool.</div>
+          <div class="footer__content-desc footer__content-desc-right">© Владимир Богатыренко | создано с любовью в LoftSchool | 2018       </div>
+        </div>
       </section>
     </div>
   </body>
