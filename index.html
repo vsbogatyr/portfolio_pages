@@ -46,8 +46,22 @@
         <form class="form-autoriz window hide" id="form-autoriz" action="" method="post">
           <div class="form-autoriz__content">
             <h3 class="subtitle title--autoriz">Авторизуйтесь</h3>
-            <input class="form-autoriz__input form-autoriz__input--user" type="text" name="user-name" required="">
-            <input class="form-autoriz__input form-autoriz__input--pass" type="password" name="pass" required="">
+            <div class="form-autoriz__input-block">
+              <div class="form-autoriz__input-block-img">
+                <svg class="form-autoriz__input-block-icon" width="15" height="15" fill="#c4cbcd">
+                  <use xlink:href="img/symbol/sprite.svg#icons--login"></use>
+                </svg>
+              </div>
+              <input class="form-autoriz__input form-autoriz__input-block-user" type="text" name="user-name" placeholder="Логин" required="">
+            </div>
+            <div class="form-autoriz__input-block">
+              <div class="form-autoriz__input-block-img">
+                <svg class="form-autoriz__input-block-icon" width="17" height="16" fill="#c4cbcd">
+                  <use xlink:href="img/symbol/sprite.svg#icons--password"> </use>
+                </svg>
+              </div>
+              <input class="form-autoriz__input form-autoriz__input-block-pass" type="password" name="pass" placeholder="Пароль" required="">
+            </div>
             <div class="form-autoriz__captcha">
               <label class="form-autoriz__captcha-human">
                 <input class="form-autoriz__captcha-check" type="checkbox" name="dont-disturb" value="1">
