@@ -52,16 +52,27 @@
         </div>
       </section>
       <section class="section about">
-        <div class="about__left">
-          <h2 class="title title--about">ОБО МНЕ</h2>
-          <div class="about__avatar" style="background-image:url(img/content/avatar.jpg);"></div>
-          <h3 class="subtitle subtitle--about">Кто я</h3>
-          <div class="about__desc">
-            Я веб разработчик из Тарко-Сале. Мне 30 лет. Я занимаюсь разработкой современных сайтов и приложений. Мне нравится делать интересные и современные проекты.Этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool. Чуть позже я освежу в нём свой контент. А пока посмотрите, как тут всё классно и красиво!</div>
+        <div class="about__left">                          
+          <div class="about__title">
+            <svg class="about__bg-text" width="245" height="86" fill="#fff">
+              <use xlink:href="img/symbol/sprite.svg#icons--about_header"> </use>
+            </svg>
+            <h2 class="title title--about">ОБО МНЕ</h2>
+          </div>
+          <div class="about__avatar"><img class="about__avatar-img" src="img/content/avatar.jpg" alt="фото"></div>
+          <div class="about__resume">
+            <h3 class="subtitle subtitle--about">Кто я</h3>
+            <div class="about__desc">
+              Я веб разработчик из Тарко-Сале. Мне 30 лет. Я занимаюсь разработкой современных сайтов и приложений. Мне нравится делать интересные и современные проекты.Этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool. Чуть позже я освежу в нём свой контент. А пока посмотрите, как тут всё классно и красиво!</div>
+          </div>
         </div>
         <div class="about__right">
-          <h3 class="subtitle subtitle--about">Чем я могу быть вам полезен</h3>
-          <div class="about__info">Больше всего меня привлекет Frontend разработка, но я также знаком и могу решать не сложные задачи на Backend. Но давайте по порядку.</div>
+          <div class="about__block-info">
+            <div class="about__block-info-title">
+              <h3 class="subtitle subtitle--about">Чем я могу быть вам полезен</h3>
+            </div>
+            <div class="about__block-info-desc">Больше всего меня привлекет Frontend разработка, но я также знаком и могу решать не сложные задачи на Backend. Но давайте по порядку.</div>
+          </div>
           <div class="skills">
             <div class="skills__group">
               <div class="dev-desc__name skills__title">Frontend</div>
@@ -115,28 +126,29 @@
                 </li>
               </ul>
             </div>
-            <div class="skills__group"></div>
-            <div class="dev-desc__name skills__title">WorkFlow</div>
-            <ul class="skills__list">
-              <li class="skills__item">
-                <svg class="circles" viewbox="0 0 110 110">
-                  <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
-                  <circle class="circle__second circle-25" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
-                </svg><span class="skills__item-title">Git</span>
-              </li>
-              <li class="skills__item">
-                <svg class="circles" viewbox="0 0 110 110">
-                  <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
-                  <circle class="circle__second circle-45" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
-                </svg><span class="skills__item-title">Gulp</span>
-              </li>
-              <li class="skills__item">
-                <svg class="circles" viewbox="0 0 110 110">
-                  <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
-                  <circle class="circle__second circle-75" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
-                </svg><span class="skills__item-title">Bower                </span>
-              </li>
-            </ul>
+            <div class="skills__group">
+              <div class="dev-desc__name skills__title">WorkFlow</div>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <svg class="circles" viewbox="0 0 110 110">
+                    <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                    <circle class="circle__second circle-25" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                  </svg><span class="skills__item-title">Git</span>
+                </li>
+                <li class="skills__item">
+                  <svg class="circles" viewbox="0 0 110 110">
+                    <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                    <circle class="circle__second circle-45" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                  </svg><span class="skills__item-title">Gulp</span>
+                </li>
+                <li class="skills__item">
+                  <svg class="circles" viewbox="0 0 110 110">
+                    <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                    <circle class="circle__second circle-75" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                  </svg><span class="skills__item-title">Bower                </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
