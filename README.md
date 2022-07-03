@@ -3,4 +3,4 @@
 **Наставник**: Ивченко Антон
 **Курс**: ПРОДВИНУТЫЙ КУРС ПО ВЕБ-РАЗРАБОТКЕ *(03.2018)*
 #### Выпускной проект
-https://uamvua.github.io/portfolio_pages/works.html
+https://vsbogatyr.github.io/portfolio_pages/works.html
